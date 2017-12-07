@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>赤峰山下</title>
+    <link rel="stylesheet" type="text/css" href="*.css"/>
+    <script language="javascript" type="text/javascript"></script>
+</head>
+<body>
+<ul>
+    {% for item in user_list %}
+        <li>{{ item.id }}-{{ item.name }}-{{ item.age }}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>
